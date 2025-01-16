@@ -1,0 +1,33 @@
+.hero {
+  background-color: white;
+  color: black;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-family: "Cursive", sans-serif;
+}
+
+.hero button {
+  background-color: #143e6a;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #0056b3;
+}
+
+
+
